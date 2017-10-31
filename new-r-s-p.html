@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <title> Rock Paper Scissors </title>
+  <script>
+    alert('lets start!');
+
+    function rpsGame() {
+      var userMove = prompt("Choose between rock, paper, or scissors!");
+      var randomNumber = Math.random();
+      var computerMove;
+      if (randomNumber < 0.33) {
+        computerMove = 'rock';
+      } else if (randomNumber < 0.66) {
+        computerMove = 'scissors';
+      } else {
+        computerMove = 'paper';
+      }
+      if (computerMove == userMove) {
+        console.log('DRAW!! - You both lose!');
+      } else if ((userMove == 'rock' && computerMove == 'scissors') || (userMove == 'paper' && computerMove == 'rock') || (userMove == 'scissors' && computerMove == 'paper')) {
+        console.log('You WIN! - Nice!!');
+      } else if (userMove == 'rock' && computerMove == 'paper') {
+        console.log('You LOSE - Boo!!');
+<<<<<<< HEAD
+      } else if (userMove == 'scissors' && computerMove == 'rock') {
+        console.log('You LOSE - Boo!!');
+      } else if (userMove == 'paper' && computerMove == 'scissors') {
+        console.log('You LOSE - Boo!!');
+      }
+    }
+    var continuePlaying = true;
+
+    while (continuePlaying) {
+=======
+      } else if (userMove == 'paper' && computerMove == 'rock') {
+		    console.log('You WIN! - Nice!!');
+	    }	else if (userMove == 'scissors' && computerMove == 'rock') {
+		    console.log('You LOSE - Boo!!');
+	    }	else if (userMove == 'scissors' && computerMove == 'paper') {
+		    console.log('You WIN! - Nice!!');
+	    }	else if (userMove == 'paper' && computerMove == 'scissors') {
+		    console.log('You LOSE - Boo!!');
+      }
+      }
+      var continuePlaying = true;
+    
+      while(continuePlaying) {
+>>>>>>> 526e1d9ea9a6bf07084fe214bf47eb54bf418b82
+      rpsGame();
+      continuePlaying = confirm('Play on?');
+    }
+  </script>
+</head>
+
+</html> 

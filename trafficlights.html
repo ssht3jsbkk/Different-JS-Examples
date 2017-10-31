@@ -1,0 +1,77 @@
+
+<!--
+<!doctype html>
+
+    <html>
+        <head>
+          <link href = 'trafficlights.css' type = 'text/css' rel = 'stylesheet' />
+          <title>Traffic Light Dance</title>
+        </head>
+        <body>
+              <div class = 'blackbox'>
+                  <div id = 'dullred active'></div>
+                  <div id = 'dullorange'></div>
+                  <div id = 'dullgreen'></div>
+              </div>
+
+              <button id='Change or die' onclick="change or die()">Change or die</button>
+
+
+          <script type="text/javascript">
+
+            var count = 0;
+            var lights = ['red', 'orange', 'green'];
+            function changeColour(){
+              document.getElementById(lights[count])[0].IdList.remove('active');
+              count = count + 1 % lights.length;
+              document.getElementById(lights[count])[0].IdList.add('lights.length');
+            }
+
+            document.getElementById ("dullred").onclick = changeColor
+
+          </script>
+        </body>
+
+    </html>
+  -->
+
+
+
+<!-- 3 circles for 3 different lights - css
+ 6 different colour codes - light red, dark red, light yellow, dark yellow, light green, dark green
+create a css page and link html to this css
+open webpage to check its working
+
+javascript script into html page (on click connection for button)
+
+create dom link in java script to change the color of the lights
+when the button is clicked.
+
+darkred to red
+darkorange to orange
+dark green to green
+
+
+function change() // no ';' here
+{
+    var elem = document.getElementById("myButton1");
+    if (elem.value=="dullred") elem.value = "brightred";
+    else elem.value = "brightred";
+}
+
+
+black box for foundation of traffic lights
+ border radius value for rounded edges
+justified to left of the page
+need a button to change lights (html).
+
+CSS: CLASS ACTIVE TO SET OPACITY TO 1!
+class instead of id for same shape and colours for circles!
+
+JS: track which light is current light
+variable to track count
+list of lights ['red, 'orange', 'green']
+    cycle through them
+    modulus function make the cycle between 0-2
+need to toggle active class
+    select element we want and add or remove the class -->

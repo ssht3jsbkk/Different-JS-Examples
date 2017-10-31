@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+  <link href='recaptask2.css' type='text/css' rel='stylesheet' />
+  <title>JS RECAP 2</title>
+
+  <body>
+    <h1>SHOPPING LIST</h1>
+
+    <ol id="list">
+      </ol>
+    <input type="text" id="FoodText" value="Bread">
+    <button id='ChangeFood' onclick="DifferentFood()">FOOD ITEM</button>
+
+    <script> // Add source!
+
+      function DifferentFood() {
+        var a = document.getElementById("FoodText").value;
+        document.getElementById("list").innerHTML = a;
+        if(a == "") {
+          return(console.warn("oh dear me!"))
+        }
+
+// add for loop !
+
+      }
+
+
+
+
+
+    </script>
+  </body>
+</head>
+
+</html>

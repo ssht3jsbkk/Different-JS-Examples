@@ -1,0 +1,29 @@
+<!--Create a basic html page structure; X
+Make a title in the head tag for JAVASCRIPT RECAP; X
+Create a header in the body tag for WELCOME!; X
+Create a button in the body tag to change the name of the person that is inputed/typed into the space bar - use div tags ?
+Create a function in JS to change the input field of the name every time a different input is entered - use if and else loops!-->
+
+<!doctype html>
+<html>
+
+<head>
+  <link href='welcomeDomJsRecap.css' type='text/css' rel='stylesheet' />
+  <title>JAVASCRIPT RECAP</title>
+
+  <body>
+    <h1>HAVE A NICE MONDAY!</h1>
+    <p id="demo"></p>
+    <input type="text" id="NameText" value="Sharon">
+    <button id='ChangeName' onclick="DifferentName()">TRY A DIFFERENT NAME</button>
+
+    <script>
+      function DifferentName() {
+        var a = document.getElementById("NameText").value;
+        document.getElementById("demo").innerHTML = a;
+      }
+    </script>
+  </body>
+</head>
+
+</html>

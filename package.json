@@ -1,0 +1,25 @@
+{
+  "name": "javascript-1st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "new-java-stuff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/rock-scissors-paper-ssht3jsbkk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/rock-scissors-paper-ssht3jsbkk/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/rock-scissors-paper-ssht3jsbkk#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "express-formidable": "^1.0.0",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {}
+}

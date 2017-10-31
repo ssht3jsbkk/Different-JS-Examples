@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title> First Javascript </title>
+    <script>
+      alert('Welcome to my life');
+      console.log('why is today monday');
+
+      var name = prompt('is monday really necessary?');
+      console.log(name);
+
+
+      function nameCheck(input) {
+        if(input == 'sharon'){
+          console.log('sharon has passed');
+        } else if (input == 'Bootcamp')
+          console.log('Bootcamp is here');
+          else {
+          console.log('sharon has not passed');
+        }
+        return input;
+      }
+
+      function makeImportant(input) {
+        return input + '!!!';
+      }
+
+      var count = 0;
+
+      while(count < 5) {
+        console.log('Monday' + count);
+        count = count + 1;
+      }
+
+      for(var count = 0; count < 5; count = count + 1) {
+        console.log(count);
+      }
+
+
+      nameCheck(name)
+
+      </script>
+  </head>
+</html>

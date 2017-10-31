@@ -1,0 +1,26 @@
+ol  {
+
+  color: red;
+  font-size: 50px;
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  bottom: 125px;
+
+}
+
+input {
+
+  color: orange;
+  position: absolute;
+  left: 20px;
+
+}
+
+button  {
+
+  color: green;
+  position: absolute;
+  left: 200px;
+
+}

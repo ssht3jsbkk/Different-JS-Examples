@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Rock paper scissors </title>
+    <script>
+      alert('rockpaperscissorsgameround1');
+
+  function computerMoveObject() 
+      var randomNumber = Math.random(1);
+      var player2Move;
+      if(randomNumber < 0.3)  {
+          player2move = 'rock';
+      } else if (randomNumber < 0.6)  {
+          player2move = 'scissors';
+      } else {
+        player2move = 'paper';
+      }
+      console.log(randomNumber);
+      console.log(player2move);
+
+      var player1move;
+      var name = prompt('rock paper or scissors?');
+      console.log(player1move);
+
+    </script>
+</head>
+</html>
